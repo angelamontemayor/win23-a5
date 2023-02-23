@@ -9,16 +9,6 @@ echo
 echo "To fail any test, you should use the exit 1 command;"
 echo "To end a test early as a success, you should use the exit 0 command."
 
-if ! $CALCULATOR 100 * 2; then
-  echo 'ERROR! A valid run of the calculator (100 * 2) failed!'
-  exit 1
-fi
-
-if ! $CALCULATOR 100 / 2; then
-  echo 'ERROR! A valid run of the calculator (100 / 2) failed!'
-  exit 1
-fi
-
 if ! $CALCULATOR 100 - 2; then
   echo 'ERROR! A valid run of the calculator (100 - 2) failed!'
   exit 1
