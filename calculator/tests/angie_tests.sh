@@ -19,7 +19,7 @@ if ! $CALCULATOR 100 + 2; then
   exit 1
 fi
 
-if [[ $($CALCULATOR 6 / 2) -ne 3 ]];
+if [[ $($CALCULATOR 6 / 2) -ne 3 ]]; then
   echo 'ERROR! A valid run of the calculator (6 / 2) failed to produce 3 as an output!'
   exit 1
 fi
